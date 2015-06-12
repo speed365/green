@@ -1,0 +1,7 @@
+var AAA =(function(module){
+	module.DoIt= function(resultObject){
+		alert(1);
+		resultObject.prepend(Date()+'<br/>');
+	};
+	return module;	
+}(AAA || {}));

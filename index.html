@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Green</title>
+  <script src="js/zepto.min.js"></script>
+  <script src="js/aa.js"></script>
+ </head>
+ <body>
+	<button id="aa">aa Do it</button>
+	<button id="clear">Clear</button>
+	<div id=results></div>
+	<script>
+		$('#aa').click(function(){
+			//alert(1);
+			AAA.DoIt($('#results'));	
+		});
+		$('#clear').click(function(){
+			$('#results').html('');	
+		});
+	</script>
+ </body>
+</html>
